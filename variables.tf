@@ -1,5 +1,5 @@
 variable "region" {
-  type = "me-south-1"
+  type = string
 }
 
 variable "instance_type" {
