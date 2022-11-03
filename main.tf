@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "country-area-number"
+  region = "me-south-1"
 }
 
 resource "aws_vpc" "main" {
@@ -114,7 +114,7 @@ resource "aws_launch_template" "cnappuscase" {
 }
 
 resource "aws_autoscaling_group" "cnapp" {
-  availability_zones = ["country-area-numbera"]
+  availability_zones = ["me-south-1"]
   desired_capacity   = 1
   max_size           = 1
   min_size           = 1
