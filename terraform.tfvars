@@ -1,4 +1,4 @@
-region             = "country-area-number"
-availability_zones = ["country-area-numbera", "country-area-numberb"]
+region             = "me-south-1"
+availability_zones = ["me-south-1", "me-south-1"]
 instance_type      = "t3.micro"
 key_name           = "cnappdemo"
